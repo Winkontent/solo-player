@@ -31,7 +31,7 @@ function initAudio(){
 		solution: 'html,flash',
 		wmode: 'window'
 	}).jPlayer('setMedia',{
-		mp3: '//radio.monocle.com/live'
+		mp3: 'https://radio.monocle.com/live'
 	}).on($.jPlayer.event.loadeddata, function(e){
 		var duration = e.jPlayer.status.duration;
 		var player = $(this);

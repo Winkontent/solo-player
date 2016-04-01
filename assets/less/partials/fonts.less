@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('fonts/HelveticaNeueRoman.eot');
+	src: url('fonts/HelveticaNeueRoman.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/HelveticaNeueRoman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('fonts/HelveticaNeueBold.eot');
+	src: url('fonts/HelveticaNeueBold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/HelveticaNeueBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+// @font-face {
+// 	font-family: 'Plantin';
+// 	src: url('fonts/Plantin.eot');
+// 	src: url('fonts/Plantin.eot?#iefix') format('embedded-opentype'),
+// 		 url('fonts/Plantin.ttf') format('truetype');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'Plantin';
+// 	src: url('fonts/PlantinBold.eot');
+// 	src: url('fonts/PlantinBold.eot?#iefix') format('embedded-opentype'),
+// 		 url('fonts/PlantinBold.ttf') format('truetype');
+// 	font-weight: bold;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'Plantin';
+// 	src: url('fonts/PlantinBoldItaliceot');
+// 	src: url('fonts/PlantinBoldItalic.eot?#iefix') format('embedded-opentype'),
+// 		 url('fonts/PlantinBoldItalic.ttf') format('truetype');
+// 	font-weight: bold;
+// 	font-style: italic;
+// }
+
+// @font-face {
+// 	font-family: 'Plantin';
+// 	src: url('fonts/PlantinItalic.eot');
+// 	src: url('fonts/PlantinItalic.eot?#iefix') format('embedded-opentype'),
+// 		 url('fonts/PlantinItalic.ttf') format('truetype');
+// 	font-weight: normal;
+// 	font-style: italic;
+// }
+
+// @font-face {
+// 	font-family: 'Plantin Bold Condensed';
+// 	src: url('fonts/PlantinBoldCondensed.eot');
+// 	src: url('fonts/PlantinBoldCondensed.eot?#iefix') format('embedded-opentype'),
+// 		 url('fonts/PlantinBoldCondensed.ttf') format('truetype');
+// 	font-style: normal;
+// 	font-weight: bold;
+// }
+
+
+/*	Icons  */
+
+@font-face {
+    font-family: 'monocons';
+    src: url('fonts/monocons.eot');
+    src: url('fonts/monocons.eot?#iefix') format('embedded-opentype'),
+         url('fonts/monocons.woff') format('woff'),
+         url('fonts/monocons.ttf') format('truetype'),
+         url('fonts/monocons.svg#monocons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-plantin: "Plantin", "Plantin Pro", "Book Antiqua", Georgia, "Times New Roman", serif;
+@font-plantin-bldcond: "Plantin Bold Condensed", @font-plantin;
+@font-icons: "monocons", @font-helvetica;
+
+[class*=f-] {
+	-webkit-font-smoothing: antialiased;
+}
+.f-icon {
+	font-family: @font-icons;
+	font-weight: normal;
+}
+.f-helvetica {
+	font-family: @font-helvetica;
+}
+.f-plantin {
+	font-family: @font-plantin-bldcond;
+	text-transform: uppercase;
+}

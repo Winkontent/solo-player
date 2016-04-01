@@ -1,0 +1,14 @@
+.content {
+	margin: -@content-height/2 0 0 -@content-width/2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: @content-width;
+	height: @content-height;
+}
+.content:after {
+	content: "";
+	display: block;
+	clear: both;
+	width: 100%;
+}
